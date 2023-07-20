@@ -1,0 +1,38 @@
+Rock Paper Scissors Python Project Report 
+1. Introduction
+The Rock Paper Scissors game is a classic hand game often played between two players, but in this project, we'll implement a single-player version where the player competes against the computer. The objective is to create a Python program that allows the user to interactively play Rock Paper Scissors against the computer on the command-line interface (CLI).
+
+2. Project Overview
+The project involves creating a Python program that will simulate the game of Rock Paper Scissors. The program will prompt the player to enter their choice (rock, paper, or scissors) and then generate a random choice for the computer. The player's choice and the computer's choice will be compared to determine the winner based on the game rules.
+
+3. Features
+3.1. Single-player mode
+The program will be designed to be played in single-player mode, where the user plays against the computer.
+
+3.2. Random computer choice
+To simulate the computer's decision-making, the program will use Python's random module to generate a random choice (rock, paper, or scissors) for the computer.
+
+3.3. Input validation
+The program will validate the player's input to ensure it matches one of the valid choices ('rock', 'paper', or 'scissors'). If the player enters an invalid choice, the program will prompt the player to re-enter their choice.
+
+3.4. Score tracking
+The program will keep track of the player's and computer's scores throughout multiple rounds. The scores will be displayed after each round.
+
+3.5. Option to quit
+The player will have the option to quit the game at any time by indicating that they do not want to play another round.
+
+4. Implementation Details
+4.1. Game Logic
+The game logic will involve a function that takes the player's choice as an argument and generates a random choice for the computer using the random module. The function will then compare the two choices to determine the winner based on the Rock Paper Scissors rules: rock beats scissors, scissors beats paper, and paper beats rock.
+
+4.2. Input Handling
+The program will use a function to get the player's choice as input. The input will be validated to ensure it is one of the valid choices ('rock', 'paper', or 'scissors'). If the input is not valid, the program will ask the player to re-enter their choice until a valid input is received.
+
+4.3. Score Tracking
+The program will keep track of the player's and computer's scores using variables that update after each round. The scores will be displayed to the player after each round to provide feedback on their performance.
+
+4.4. Looping and Quit Option
+The game will be played in a loop, allowing the player to play multiple rounds until they decide to quit. After each round, the player will be prompted if they want to play again. If the player chooses not to continue, the loop will break, and the game will end.
+
+5. Conclusion
+The Rock Paper Scissors Python project provides an enjoyable and interactive game for a single player to compete against the computer. The implementation of basic game logic, input validation, and randomization using Python showcases fundamental programming concepts. This project is an excellent opportunity for beginners to practice Python programming skills and expand their knowledge by exploring more advanced game development and AI concepts.
